@@ -1,0 +1,165 @@
+@import 'normalize';
+
+body {
+  color: black;
+  background-color: whitesmoke;
+  font-family: 'Karla', sans-serif;
+  margin: 0 0 0 0;
+  border: 0 0 0 0;
+  padding: 0 0 0 0;
+
+  header{
+    text-align: center;
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+    padding: 30px 0 30px 0;
+    h1{
+      font-size: 3rem;
+    }
+    p{
+      margin: 0 0 0 0;
+      border: 0 0 0 0;
+      padding: 0 0 0 0;
+    }
+  }
+  
+  article{
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+    padding: 50px 300px 50px 300px;
+    
+    div{
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+    padding: 0 50px 0 50px;
+    font-size: 1rem;
+      p{
+        text-align: left;
+      }
+    }
+   
+    figure{
+      margin: 0 0 0 0;
+      border: 0 0 0 0;
+      padding: 0 0 0 0;
+      img{
+        height: 400px;
+        width: 400px;
+      }
+    }
+  }
+
+  article:nth-child(odd){
+    flex-direction: row-reverse;
+  }
+  
+  p{
+    text-align: center;
+  }
+
+  form{
+    background-color: rgb(143, 229, 201);
+    text-align: left;
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+    padding: 0 300px 0 300px;
+    h2{
+      text-align: center;
+      padding-top: 50px;
+    }
+    p{
+      padding-bottom: 50px;
+    }
+    label{
+    margin: 0 375px 0 0;
+    border: 0 0 0 0;
+    padding: 0 0 0 0;
+    }
+    input{
+    margin: 40px 40px 40px 0;
+    border: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-color: rgb(143, 229, 201);
+    border-left: 0px;
+    border-right: 0px;
+    border-block-start-style: none;
+    border-block-end-style: solid;
+    border-width: 1px;
+    width: 378px;
+    }
+    #tecnologia{
+      width: 800px;
+    }
+    textarea{
+      background-color: rgb(143, 229, 201);
+      border-left: 0px;
+      border-right: 0px;
+      border-block-start-style: none;
+      border-block-end-style: solid;
+      border-width: 1px;
+      width: 800px;
+    }
+    #button{
+      margin: 10px 10px 50px 730px;
+      border: 0 0 0 0;
+      padding: 10px 20px 10px 20px;
+      width: auto;
+      text-align: right;
+      border-block-start-style: solid;
+      border-block-end-style: solid;
+      border-left: 2px;
+      border-right: 2px;
+      border-left-color: black;
+      border-right-color: black;
+      border-left-style: solid;
+      border-right-style: solid;
+      border-width: 2px;
+      border-block-end-color: black;
+      border-block-start-color: black;
+    }
+    
+    .hidden{
+      display: none;
+    }
+    .modal-dialog{
+      position: fixed;
+      border: 1px solid black;
+      box-shadow: 0 0 10px 1px rgba(0,0,0,.4);
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      background-color: whitesmoke;
+      margin: 0 0 0 0;
+      border: 0 0 0 0;
+      padding: 0 0 0 0;
+      h2{
+        text-align: left;
+        margin: 0 0 0 0;
+        border: 0 0 0 0;
+        padding: 5px 5px 10px 5px;
+      }
+      p{
+        text-align: left;
+        margin: 0 0 0 0;
+        border: 0 0 0 0;
+        padding: 0 5px 10px 5px;
+      }
+      button{
+        margin: 20px 5px 5px 450px;
+        border: 0 0 0 0;
+        padding: 10px 15px 10px 15px;
+      }
+    }
+  }
+  
+  footer{
+    text-align: center;
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+    padding: 30px 0 30px 0;
+  }
+}
+
+@import 'media-queries'
